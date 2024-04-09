@@ -5,13 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/99f531cd0d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="dist/css/styles.css" />
     <title>Frontpage</title>
   </head>
-  <h1>Test</h1>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <picture>
+            <source
+              media="(min-width: 576px)"
+              srcset="./assets/logo/logo-dark-large.svg"
+            />
+            <img
+              src="./assets/logo/logo-dark-small.svg"
+              alt="Website logo"
+            /> </picture
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-1-125rem text-nowrap" href="#"
+                >Overnatting</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-125rem text-nowrap" href="#"
+                >Aktiviteter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-125rem text-nowrap" href="#"
+                >Firmasamling</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-125rem text-nowrap" href="#">Om oss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-125rem text-nowrap" href="#">Priser</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-125rem text-nowrap" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link fs-1-875rem ps-4" href="#"
+                ><i class="fa fa-search"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-875rem ps-4" href="#"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-1-875rem ps-4" href="#"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <body></body>
 </html>

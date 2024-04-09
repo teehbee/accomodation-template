@@ -18,10 +18,34 @@ $main-gray-color: #5c5c5c;
 $main-gray-light-color: #f4f6f2;
 $main-blue-color: #35567d;
 
+//Font variables
+
+$custom-fs-1-125rem: 1.125rem;
+$custom-fs-1-875: 1.875rem;
+
 // My custom styles
 
 html * {
   color: $main-gray-color;
+  font-family: Inter;
 }
 
-// Variables
+// Utility classes
+
+// Customs font sizes
+
+.fs-1-125rem {
+  font-size: $custom-fs-1-125rem;
+}
+
+.fs-1-875rem {
+  font-size: $custom-fs-1-875;
+}
+
+// Customs font sizes with breakpoints
+
+.center-navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
