@@ -12,4 +12,16 @@
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+// Variables
+
+$main-gray-color: #5c5c5c;
+$main-gray-light-color: #f4f6f2;
+$main-blue-color: #35567d;
+
 // My custom styles
+
+html * {
+  color: $main-gray-color;
+}
+
+// Variables
