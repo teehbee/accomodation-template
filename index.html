@@ -22,77 +22,137 @@
     <link rel="stylesheet" href="dist/css/styles.css" />
     <title>Frontpage</title>
   </head>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
+  <body>
+    <header class="fixed-top text-center">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <picture>
+              <source
+                media="(min-width: 576px)"
+                srcset="./assets/logo/logo-dark-large.svg"
+              />
+              <img
+                src="./assets/logo/logo-dark-small.svg"
+                alt="Website logo"
+              /> </picture
+          ></a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center pt-5 pt-md-0"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-1-125rem text-nowrap" href="#"
+                  >Overnatting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-1-125rem text-nowrap" href="#"
+                  >Aktiviteter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-1-125rem text-nowrap" href="#"
+                  >Firmasamling</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-1-125rem text-nowrap" href="#">Om oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-1-125rem text-nowrap" href="#">Priser</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-1-125rem text-nowrap" href="#">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="assets/flag/uk-flag.svg"
+                    alt="Active Flag"
+                    class="me-2 height-20px"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="frontpage-top">
+        <div class="banner banner-frontpage">
           <picture>
             <source
               media="(min-width: 576px)"
-              srcset="./assets/logo/logo-dark-large.svg"
+              srcset="./assets/img/frontpage-banner-1920x700.jpg"
             />
             <img
-              src="./assets/logo/logo-dark-small.svg"
-              alt="Website logo"
-            /> </picture
-        ></a>
-        <button
-          class="navbar-toggler border-0"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse text-center pt-5 pt-md-0"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link fs-1-125rem text-nowrap" href="#"
-                >Overnatting</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-1-125rem text-nowrap" href="#"
-                >Aktiviteter</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-1-125rem text-nowrap" href="#"
-                >Firmasamling</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-1-125rem text-nowrap" href="#">Om oss</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-1-125rem text-nowrap" href="#">Priser</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-1-125rem text-nowrap" href="#">Kontakt</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav flex-row justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link fs-1-875rem ps-4" href="#"
-                ><i class="fa fa-facebook"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-1-875rem ps-4" href="#"
-                ><i class="fa fa-instagram"></i
-              ></a>
-            </li>
-          </ul>
+              src="./assets/img/frontpage-banner-700x600.jpg"
+              alt="Hero-image"
+            />
+          </picture>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <body></body>
+        <div class="container text-center pt-3">
+          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
+            Fjellhytta i Vang
+          </h1>
+          <div class="row">
+            <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                purus, convallis eu ornare id, vehicula sed odio. Proin mattis,
+                odio id dapibus pretium, nibh libero elementum metus, ac
+                imperdiet nulla tellus non felis. Mauris condimentum est et
+                efficitur congue. Duis lobortis lacus a justo efficitur, eu
+                malesuada lorem dignissim. Sed sodales, neque quis consequat
+                pulvinar, purus erat volutpat lectus, nec porttitor dui turpis
+                non tellus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="frontpage-image-carousel pt-5">
+        <div class="placeholder-lightbox text-center">
+          <p>Image carousel will go here</p>
+        </div>
+      </section>
+      <section>
+        <div class="container text-center pt-3">
+          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">Overnatting</h1>
+          <div class="row">
+            <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                purus, convallis eu ornare id, vehicula sed odio. Proin mattis,
+                odio id dapibus pretium, nibh libero elementum metus, ac
+                imperdiet nulla tellus non felis. Mauris condimentum est et
+                efficitur congue. Duis lobortis lacus a justo efficitur, eu
+                malesuada lorem dignissim. Sed sodales, neque quis consequat
+                pulvinar, purus erat volutpat lectus, nec porttitor dui turpis
+                non tellus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

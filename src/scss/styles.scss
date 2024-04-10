@@ -12,31 +12,25 @@
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Variables
+// Color variables
 
-$main-gray-color: #5c5c5c;
-$main-gray-light-color: #f4f6f2;
-$main-blue-color: #35567d;
+$secondary-color: #5c5c5c;
+$light-color: #f4f6f2;
+$main-color: #35567d;
+
+.main-color {
+  color: $main-color;
+}
+
+// Color classes
 
 //Font variables
 
+$custom-fs-0-875rem: 0.875rem;
 $custom-fs-1-125rem: 1.125rem;
+$custom-fs-1-5rem: 1.5rem;
 $custom-fs-1-875: 1.875rem;
-
-// My custom styles
-
-html * {
-  color: $main-gray-color;
-  font-family: Inter;
-}
-
-// Navigation
-
-// Utility classes
-
-.height-80px {
-  height: 80px;
-}
+$custom-fs-2-25: 2.25rem;
 
 // Customs font sizes
 
@@ -50,4 +44,42 @@ html * {
 
 // Customs font sizes with breakpoints
 
-// Media queries
+.fs-0-875rem-lg-1-125rem {
+  font-size: $custom-fs-0-875rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-1-125rem;
+  }
+}
+
+.fs-1-5rem-lg-2-25rem {
+  font-size: $custom-fs-1-5rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-2-25;
+  }
+}
+
+// My custom styles
+
+html * {
+  color: $secondary-color;
+  font-family: Inter;
+}
+
+.banner {
+  height: 600px;
+}
+
+.banner-frontpage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 600px;
+}
+
+// Utility classes
+
+.height-20px {
+  height: 20px;
+}
