@@ -12646,18 +12646,16 @@ html * {
   font-family: Inter;
 }
 
+.height-80px {
+  height: 80px;
+}
+
 .fs-1-125rem {
   font-size: 1.125rem;
 }
 
 .fs-1-875rem {
   font-size: 1.875rem;
-}
-
-.center-navbar-items {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -30,7 +30,13 @@ html * {
   font-family: Inter;
 }
 
+// Navigation
+
 // Utility classes
+
+.height-80px {
+  height: 80px;
+}
 
 // Customs font sizes
 
@@ -44,8 +50,4 @@ html * {
 
 // Customs font sizes with breakpoints
 
-.center-navbar-items {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+// Media queries
