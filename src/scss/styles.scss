@@ -78,8 +78,97 @@ html * {
   min-height: 600px;
 }
 
+// Carousel
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel img {
+  height: 300px;
+  flex: 0 0 auto;
+}
+
+.carousel {
+  overflow-x: auto;
+  scroll-snap-type: x-mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-arrow img {
+  height: 40px;
+}
+
+// Buttons
+
+.button-white-outline {
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.button-white-outline:hover {
+  background: rgba(41, 41, 41, 0.7);
+  transition: 0.2s ease-out;
+}
+
+.button-blue {
+  background: $main-color;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+// Frontpage cards
+
+.frontpage-cards {
+  height: 350px;
+  width: 350px;
+}
+
+.card-image {
+  opacity: 0.6;
+}
+
+.frontpage-cards:hover .card-image {
+  opacity: 0.3;
+  transition: opacity 0.2s ease-out;
+}
+
 // Utility classes
 
 .height-20px {
   height: 20px;
+}
+
+.border-radius-none {
+  border-radius: 0;
+}
+
+.border-none {
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .frontpage-cards {
+    height: 418px;
+    width: 418px;
+  }
+
+  // Alternating tiles
+
+  .alternating-tiles .row:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
 }

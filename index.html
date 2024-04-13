@@ -19,6 +19,7 @@
       src="https://kit.fontawesome.com/99f531cd0d.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="src/js/video/youtubeEmbed.js"></script>
     <link rel="stylesheet" href="dist/css/styles.css" />
     <title>Frontpage</title>
   </head>
@@ -127,9 +128,34 @@
           </div>
         </div>
       </section>
-      <section class="frontpage-image-carousel pt-5">
-        <div class="placeholder-lightbox text-center">
-          <p>Image carousel will go here</p>
+      <section class="py-5">
+        <div class="carousel-container position-relative">
+          <div class="carousel d-flex flex-nowrap">
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+          </div>
+          <div
+            id="carousel-prev-button"
+            class="carousel-arrow prev ms-3 d-none d-md-block"
+          >
+            <a href="#"
+              ><img src="assets/icon/carousel-arrow-prev.svg" alt=""
+            /></a>
+          </div>
+          <div
+            id="carousel-next-button"
+            class="carousel-arrow next end-0 me-3 d-none d-md-block"
+          >
+            <a class="" href="#"
+              ><img src="assets/icon/carousel-arrow-next.svg" alt=""
+            /></a>
+          </div>
         </div>
       </section>
       <section>
@@ -152,6 +178,207 @@
             </div>
           </div>
         </div>
+      </section>
+      <section class="pt-5">
+        <div class="container">
+          <div class="row gap-3 justify-content-center">
+            <div
+              class="frontpage-cards card bg-dark border-none p-0 border-radius-none"
+            >
+              <img class="card-image" src="https://picsum.photos/418" alt="#" />
+              <div
+                class="card-image-overlay text-center position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="card-title text-white">Room nummer</h2>
+                <p class="card-text text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a class="button-white-outline" href="#">Mer info</a>
+              </div>
+            </div>
+
+            <div
+              class="frontpage-cards card bg-dark p-0 border-none border-radius-none"
+            >
+              <img class="card-image" src="https://picsum.photos/418" alt="#" />
+              <div
+                class="card-image-overlay text-center position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="card-title text-white">Room nummer</h2>
+                <p class="card-text text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a class="button-white-outline" href="#">Mer info</a>
+              </div>
+            </div>
+
+            <div
+              class="frontpage-cards card bg-dark border-none p-0 border-radius-none"
+            >
+              <img class="card-image" src="https://picsum.photos/418" alt="#" />
+              <div
+                class="card-image-overlay text-center position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="card-title text-white">Room nummer</h2>
+                <p class="card-text text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a class="button-white-outline" href="#">Mer info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container text-center pt-5">
+          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
+            AKTIVITETER - OPPLEVELSER
+          </h1>
+          <div class="row">
+            <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                purus, convallis eu ornare id, vehicula sed odio. Proin mattis,
+                odio id dapibus pretium, nibh libero elementum metus, ac
+                imperdiet nulla tellus non felis. Mauris condimentum est et
+                efficitur congue. Duis lobortis lacus a justo efficitur, eu
+                malesuada lorem dignissim. Sed sodales, neque quis consequat
+                pulvinar, purus erat volutpat lectus, nec porttitor dui turpis
+                non tellus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-5">
+        <div class="container youtube-container text-center ratio ratio-16x9">
+          <div id="player"></div>
+        </div>
+      </section>
+      <section class="pt-5">
+        <div class="container alternating-tiles text-center">
+          <div class="row g-0">
+            <div class="col-12 col-md-6 pb-3 pb-md-0">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="https://picsum.photos/700/550"
+                />
+                <img
+                  class="img-fluid"
+                  src="https://picsum.photos/400/300"
+                  alt="Website logo"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 pb-5 pb-md-0">
+              <div
+                class="frontpage-tile-text-box d-flex align-items-center justify-content-center flex-column h-100 w-75 mx-auto text-center text-md-start"
+              >
+                <h2 class="me-md-auto">Aktivitet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                  purus, convallis eu ornare id, vehicula sed odio. Proin
+                  mattis,
+                </p>
+                <a href="#" class="button-blue me-md-auto">Les mer</a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-12 col-md-6 pb-3 pb-md-0">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="https://picsum.photos/700/550"
+                />
+                <img
+                  class="img-fluid"
+                  src="https://picsum.photos/400/300"
+                  alt="Website logo"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 pb-5 pb-md-0">
+              <div
+                class="frontpage-tile-text-box d-flex align-items-center justify-content-center flex-column h-100 w-75 mx-auto text-center text-md-start"
+              >
+                <h2 class="me-md-auto">Aktivitet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                  purus, convallis eu ornare id, vehicula sed odio. Proin
+                  mattis,
+                </p>
+                <a href="#" class="button-blue me-md-auto">Les mer</a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-12 col-md-6 pb-3 pb-md-0">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="https://picsum.photos/700/550"
+                />
+                <img
+                  class="img-fluid"
+                  src="https://picsum.photos/400/300"
+                  alt="Website logo"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 pb-5 pb-md-0">
+              <div
+                class="frontpage-tile-text-box d-flex align-items-center justify-content-center flex-column h-100 w-75 mx-auto text-center text-md-start"
+              >
+                <h2 class="me-md-auto">Aktivitet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                  purus, convallis eu ornare id, vehicula sed odio. Proin
+                  mattis,
+                </p>
+                <a href="#" class="button-blue me-md-auto">Les mer</a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-12 col-md-6 pb-3 pb-md-0">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="https://picsum.photos/700/550"
+                />
+                <img
+                  class="img-fluid"
+                  src="https://picsum.photos/400/300"
+                  alt="Website logo"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 pb-5 pb-md-0">
+              <div
+                class="frontpage-tile-text-box d-flex align-items-center justify-content-center flex-column h-100 w-75 mx-auto text-center text-md-start"
+              >
+                <h2 class="me-md-auto">Aktivitet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                  purus, convallis eu ornare id, vehicula sed odio. Proin
+                  mattis,
+                </p>
+                <a href="#" class="button-blue me-md-auto">Les mer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid"></div>
       </section>
     </main>
   </body>
