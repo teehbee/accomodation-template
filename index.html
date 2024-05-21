@@ -19,7 +19,6 @@
       src="https://kit.fontawesome.com/99f531cd0d.js"
       crossorigin="anonymous"
     ></script>
-    <script defer src="src/js/video/youtubeEmbed.js"></script>
     <link rel="stylesheet" href="dist/css/styles.css" />
     <title>Frontpage</title>
   </head>
@@ -108,7 +107,7 @@
         </div>
         <div class="container text-center pt-3">
           <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
-            Fjellhytta i Vang
+            FJELLHYTTA I VANG
           </h1>
           <div class="row">
             <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
@@ -128,7 +127,7 @@
           </div>
         </div>
       </section>
-      <section class="py-5">
+      <section id="image-carousel-section" class="py-5">
         <div class="carousel-container position-relative">
           <div class="carousel d-flex flex-nowrap">
             <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
@@ -160,7 +159,7 @@
       </section>
       <section>
         <div class="container text-center pt-3">
-          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">Overnatting</h1>
+          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">OVERNATTING</h1>
           <div class="row">
             <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
               <p>
@@ -252,12 +251,7 @@
           </div>
         </div>
       </section>
-      <section class="pt-5">
-        <div class="container youtube-container text-center ratio ratio-16x9">
-          <div id="player"></div>
-        </div>
-      </section>
-      <section class="pt-5">
+      <section id="activities-tiles" class="pt-5">
         <div class="container alternating-tiles text-center">
           <div class="row g-0">
             <div class="col-12 col-md-6 pb-3 pb-md-0">
@@ -377,9 +371,108 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="container-fluid"></div>
+      <section class="py-5 position-relative">
+        <div class="container-fluid main-background-color text-center py-5">
+          <p class="fs-1-rem-lg-1-25rem text-white max-width-650px mx-auto">
+            En uforglemmelig juvel i fjellandskapet. Vertene er utrolig
+            imøtekommende og serverer herlig mat som får gjestene til å føle seg
+            helt hjemme. Jeg kan virkelig ikke anbefale dette stedet nok! <br />
+            (anmeldelser fra utleieside dynamisk lagt til. Dette kan legges til
+            flere steder på siden etter eget ønske)
+          </p>
+          <div class="text-white fs-1-875rem">
+            &#9733; &#9733; &#9733; &#9733; &#9734;
+          </div>
+
+          <div class="pt-3">
+            <p class="text-white fs-0-875rem-lg-1-125rem">Gjest Gjestesen</p>
+          </div>
+        </div>
       </section>
+      <section id="other-info">
+        <div class="container alternating-tiles text-center">
+          <div class="row g-0">
+            <div class="col-12 col-md-6 pb-3 pb-md-0">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="https://picsum.photos/700/550"
+                />
+                <img
+                  class="img-fluid"
+                  src="https://picsum.photos/400/300"
+                  alt="Website logo"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 pb-5 pb-md-0">
+              <div
+                class="frontpage-tile-text-box d-flex align-items-center justify-content-center flex-column h-100 w-75 mx-auto text-center text-md-start"
+              >
+                <h2 class="me-md-auto">Annen informasjon</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                  purus, convallis eu ornare id, vehicula sed odio. Proin
+                  mattis,
+                </p>
+                <a href="#" class="button-blue me-md-auto">Les mer</a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-12 col-md-6 pb-3 pb-md-0">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="https://picsum.photos/700/550"
+                />
+                <img
+                  class="img-fluid"
+                  src="https://picsum.photos/400/300"
+                  alt="Website logo"
+                />
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 pb-5 pb-md-0">
+              <div
+                class="frontpage-tile-text-box d-flex align-items-center justify-content-center flex-column h-100 w-75 mx-auto text-center text-md-start"
+              >
+                <h2 class="me-md-auto">Annen informasjon</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur lacinia dolor quis purus cursus egestas. Ut nibh
+                  purus, convallis eu ornare id, vehicula sed odio. Proin
+                  mattis,
+                </p>
+                <a href="#" class="button-blue me-md-auto">Les mer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container pt-5 text-center">
+          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
+            BESTILL OVERNATTING (Kun demobilde)
+          </h1>
+          <picture>
+            <source
+              media="(min-width: 576px)"
+              srcset="./assets/booking-demo/Skjermbilde-2024-05-21-143011.png"
+            />
+            <img
+              src="./assets/booking-demo/Skjermbilde-2024-05-21-143020.png"
+              alt="booking demo"
+            />
+          </picture>
+        </div>
+      </section>
+      <footer>
+        <div class="container-fluid main-background-color text-center py-5">
+          <div class="container"></div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

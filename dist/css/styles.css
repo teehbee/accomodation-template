@@ -12645,6 +12645,10 @@ textarea.form-control-lg {
   color: #35567d;
 }
 
+.main-background-color {
+  background: #35567d;
+}
+
 .fs-1-125rem {
   font-size: 1.125rem;
 }
@@ -12659,6 +12663,15 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .fs-0-875rem-lg-1-125rem {
     font-size: 1.125rem;
+  }
+}
+
+.fs-1-rem-lg-1-25rem {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .fs-1-rem-lg-1-25rem {
+    font-size: 1.5rem;
   }
 }
 
@@ -12754,6 +12767,10 @@ html * {
 
 .border-none {
   border: none;
+}
+
+.max-width-650px {
+  max-width: 650px;
 }
 
 @media screen and (min-width: 768px) {

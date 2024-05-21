@@ -22,7 +22,9 @@ $main-color: #35567d;
   color: $main-color;
 }
 
-// Color classes
+.main-background-color {
+  background: $main-color;
+}
 
 //Font variables
 
@@ -49,6 +51,14 @@ $custom-fs-2-25: 2.25rem;
 
   @include media-breakpoint-up("lg") {
     font-size: $custom-fs-1-125rem;
+  }
+}
+
+.fs-1-rem-lg-1-25rem {
+  font-size: 1rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-1-5rem;
   }
 }
 
@@ -153,6 +163,10 @@ html * {
 
 .border-none {
   border: none;
+}
+
+.max-width-650px {
+  max-width: 650px;
 }
 
 @media screen and (min-width: 768px) {
