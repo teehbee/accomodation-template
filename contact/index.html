@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/99f531cd0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../dist/css/styles.css" />
+    <script defer src="/src/js/nav/header.js"></script>
+    <script defer src="/src/js/nav/footer.js"></script>
+    <title>Kontakt Oss</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="banner banner-frontpage position-relative">
+          <picture>
+            <source
+              media="(min-width: 576px)"
+              srcset="../assets/img/contact-1920.jpg"
+            />
+            <img src="../assets/img/contact-1920.jpg" alt="Hero-image" />
+          </picture>
+        </div>
+        <div
+          class="position-absolute top-50 start-50 translate-middle text-center"
+        >
+          <h1 class="main-color fs-1-5rem-lg-2-25rem py-5">KONTAKT OSS</h1>
+        </div>
+      </section>
+      <section>
+        <div class="container pt-3 pt-lg-5 pb-5">
+          <form class="form-width mx-auto">
+            <div class="mb-3">
+              <label for="name-input" class="form-label">Navn*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name-input"
+                aria-describedby="name"
+                placeholder="Fullt navn"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email-input" class="form-label">E-post*</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email-input"
+                aria-describedby="email"
+                placeholder="E-postadresse"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message-input" class="form-label">Melding</label>
+              <input
+                type="textarea"
+                class="form-control"
+                id="message-input"
+                placeholder="Skriv melding her..."
+              />
+            </div>
+            <button type="submit" class="btn button-blue w-100">Submit</button>
+          </form>
+        </div>
+      </section>
+      <section class="py-5 position-relative">
+        <div class="container-fluid main-background-color text-center py-5">
+          <p class="fs-1-rem-lg-1-25rem text-white max-width-650px mx-auto">
+            En uforglemmelig juvel i fjellandskapet. Vertene er utrolig
+            imøtekommende og serverer herlig mat som får gjestene til å føle seg
+            helt hjemme. Jeg kan virkelig ikke anbefale dette stedet nok! <br />
+            (anmeldelser fra utleieside dynamisk lagt til. Dette kan legges til
+            flere steder på siden etter eget ønske)
+          </p>
+          <div class="text-white fs-1-875rem">
+            &#9733; &#9733; &#9733; &#9733; &#9734;
+          </div>
+          <div class="pt-3">
+            <p class="text-white fs-0-875rem-lg-1-125rem">Gjest Gjestesen</p>
+          </div>
+        </div>
+      </section>
+      <section id="image-carousel-section" class="pt-2 pb-5">
+        <div class="carousel-container position-relative">
+          <div class="carousel d-flex flex-nowrap">
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+            <a href=""><img src="https://picsum.photos/525/350" alt="#" /></a>
+          </div>
+          <div
+            id="carousel-prev-button"
+            class="carousel-arrow prev ms-3 d-none d-md-block"
+          >
+            <a href="#"
+              ><img src="../assets/icon/carousel-arrow-prev.svg" alt=""
+            /></a>
+          </div>
+          <div
+            id="carousel-next-button"
+            class="carousel-arrow next end-0 me-3 d-none d-md-block"
+          >
+            <a class="" href="#"
+              ><img src="../assets/icon/carousel-arrow-next.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
