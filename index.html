@@ -20,77 +20,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="dist/css/styles.css" />
-    <title>Frontpage</title>
+    <script defer src="/src/js/nav/header.js"></script>
+    <script defer src="/src/js/nav/footer.js"></script>
+    <title>Forside</title>
   </head>
   <body>
-    <header class="fixed-top text-center">
-      <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <picture>
-              <source
-                media="(min-width: 576px)"
-                srcset="./assets/logo/logo-dark-large.svg"
-              />
-              <img
-                src="./assets/logo/logo-dark-small.svg"
-                alt="Website logo"
-              /> </picture
-          ></a>
-          <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse text-center pt-5 pt-md-0"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link fs-1-125rem text-nowrap" href="#"
-                  >Overnatting</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-1-125rem text-nowrap" href="#"
-                  >Aktiviteter</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-1-125rem text-nowrap" href="#"
-                  >Firmasamling</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-1-125rem text-nowrap" href="#">Om oss</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-1-125rem text-nowrap" href="#">Priser</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-1-125rem text-nowrap" href="#">Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img
-                    src="assets/flag/uk-flag.svg"
-                    alt="Active Flag"
-                    class="me-2 height-20px"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
     <main>
       <section class="frontpage-top">
         <div class="banner banner-frontpage">
@@ -159,7 +93,7 @@
       </section>
       <section>
         <div class="container text-center pt-3">
-          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">OVERNATTING</h1>
+          <h2 class="fs-1-5rem-lg-2-25rem main-color fw-normal">OVERNATTING</h2>
           <div class="row">
             <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
               <p>
@@ -192,7 +126,9 @@
                 <p class="card-text text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a class="button-white-outline" href="#">Mer info</a>
+                <a class="button-white-outline" href="../accomodation/room.html"
+                  >Mer info</a
+                >
               </div>
             </div>
 
@@ -207,7 +143,9 @@
                 <p class="card-text text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a class="button-white-outline" href="#">Mer info</a>
+                <a class="button-white-outline" href="../accomodation/room.html"
+                  >Mer info</a
+                >
               </div>
             </div>
 
@@ -222,7 +160,9 @@
                 <p class="card-text text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <a class="button-white-outline" href="#">Mer info</a>
+                <a class="button-white-outline" href="../accomodation/room.html"
+                  >Mer info</a
+                >
               </div>
             </div>
           </div>
@@ -230,9 +170,9 @@
       </section>
       <section>
         <div class="container text-center pt-5">
-          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
+          <h3 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
             AKTIVITETER - OPPLEVELSER
-          </h1>
+          </h3>
           <div class="row">
             <div class="col col-lg-8 mx-auto pt-3 fs-0-875rem-lg-1-125rem">
               <p>
@@ -383,7 +323,6 @@
           <div class="text-white fs-1-875rem">
             &#9733; &#9733; &#9733; &#9733; &#9734;
           </div>
-
           <div class="pt-3">
             <p class="text-white fs-0-875rem-lg-1-125rem">Gjest Gjestesen</p>
           </div>
@@ -453,26 +392,11 @@
       </section>
       <section>
         <div class="container pt-5 text-center">
-          <h1 class="fs-1-5rem-lg-2-25rem main-color fw-normal">
-            BESTILL OVERNATTING (Kun demobilde)
-          </h1>
-          <picture>
-            <source
-              media="(min-width: 576px)"
-              srcset="./assets/booking-demo/Skjermbilde-2024-05-21-143011.png"
-            />
-            <img
-              src="./assets/booking-demo/Skjermbilde-2024-05-21-143020.png"
-              alt="booking demo"
-            />
-          </picture>
+          <h4 class="fs-1-5rem-lg-2-25rem main-color fw-normal pb-5">
+            BESTILL OVERNATTING (Skjema kommer her)
+          </h4>
         </div>
       </section>
-      <footer>
-        <div class="container-fluid main-background-color text-center py-5">
-          <div class="container"></div>
-        </div>
-      </footer>
     </main>
   </body>
 </html>
